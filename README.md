@@ -1,7 +1,5 @@
 # Inventory Management System
 
-![Inventory Banner](https://img.freepik.com/free-vector/warehouse-storage-illustration_1284-5654.jpg)
-
 A powerful web-based solution for managing your inventory, suppliers, and transactions with ease.
 
 ---
