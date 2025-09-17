@@ -1,63 +1,53 @@
 # Inventory Management System
 
-![Inventory Banner](https://img.freepik.com/free-vector/warehouse-storage-illustration_1284-5654.jpg)  
-*A robust solution to streamline your inventory operations.*
+![Inventory Banner](https://img.freepik.com/free-vector/warehouse-storage-illustration_1284-5654.jpg)
+
+A powerful web-based solution for managing your inventory, suppliers, and transactions with ease.
 
 ---
 
 ## Overview
 
-The **Inventory Management System** is designed to efficiently manage stock, suppliers, and transactions for businesses of all sizes. Built with a modern tech stack, it offers both a powerful backend API and a user-friendly web interface.
+The **Inventory Management System** streamlines stock management for supermarkets, warehouses, and other businesses. It features a modern web dashboard, robust backend, and intuitive workflows for everyday operations.
 
 ---
 
 ## Tech Stack
 
-- **Backend:** Java (Spring Boot)  
-- **Frontend:** TypeScript, HTML, LESS, CSS  
-- **Mock Data/Testing:** [ng-alain/mock](https://ng-alain.com/mock)
+- **Backend:** Java (Spring Boot)
+- **Frontend:** TypeScript, Angular, HTML, LESS, CSS
+- **Testing/Mock Data:** [ng-alain/mock](https://ng-alain.com/mock)
 
 ---
 
 ## Features
 
-- 📦 **Stock Management:** Track goods in, goods out, and current levels.
-- 🏷️ **Supplier & Product Catalog:** Organize products and suppliers for quick access.
-- 📊 **Reporting:** Visualize stock movements and trends.
-- 🔒 **User Authentication:** Secure access for staff and admins.
-- 🔄 **Real-Time Updates:** Instantly reflect changes in inventory.
-
----
-
-## Folder Structure
-
-```text
-- stocky-api/        # Java backend (Spring Boot)
-- stocky-web/        # Frontend (Angular, TypeScript)
-    └── _mock/       # Mock data for frontend testing
-    └── src/app/core # Core Angular modules
-```
+- **Stock Management:** Monitor incoming, outgoing, and current stock.
+- **Product & Supplier Catalog:** Organize items and supplier contacts.
+- **Reporting & Analytics:** Visualize inventory trends and status.
+- **User & Branch Management:** Secure access for multiple users and branches.
+- **Import/Export:** Easily handle bulk product data.
 
 ---
 
 ## Getting Started
 
 ### 1. Clone the Repository
-```bash
+
+```sh
 git clone https://github.com/khanrasidraja/-inventory-management-system.git
 ```
 
 ### 2. Backend Setup
 
-```bash
+```sh
 cd stocky-api
-# Install dependencies and run the server
 ./mvnw spring-boot:run
 ```
 
 ### 3. Frontend Setup
 
-```bash
+```sh
 cd stocky-web
 npm install
 npm start
@@ -67,35 +57,69 @@ npm start
 
 ## Screenshots
 
-> *Please upload your own screenshots for a personalized README.*
+### Company Profile Setup
+![image1](image1)
+*Enter your business details, address, category, and branch information.*
 
-| Dashboard                    | Product List                | Stock Transaction           |
-|------------------------------|-----------------------------|-----------------------------|
-| ![Dashboard](assets/dashboard.png) | ![Products](assets/products.png) | ![Stock](assets/stock.png) |
+---
+
+### Product List Screen
+![image2](image2)
+*Search, filter, import, or export products. Add new items or manage existing inventory.*
+
+---
+
+### Add Product Modal
+![image3](image3)
+*Quickly add products, including brand, SKU, barcode, and measurement unit.*
+
+---
+
+### [Image 4: Placeholder]
+![image4](image4)
+*Description for fourth screenshot.*
+
+---
+
+### [Image 5: Placeholder]
+![image5](image5)
+*Description for fifth screenshot.*
+
+---
+
+### [Image 6: Placeholder]
+![image6](image6)
+*Description for sixth screenshot.*
+
+---
+
+### [Image 7: Placeholder]
+![image7](image7)
+*Description for seventh screenshot.*
 
 ---
 
 ## API Documentation
 
-See [stocky-api/README.md](stocky-api/README.md) for backend API details.
+See [stocky-api/README.md](stocky-api/README.md) for backend integration and endpoints.
 
 ---
 
 ## Mock Data
 
-The frontend uses [ng-alain/mock](https://ng-alain.com/mock) for rapid prototyping. See `stocky-web/_mock/README.md` for details.
+The frontend uses [ng-alain/mock](https://ng-alain.com/mock) for prototyping. More info in `stocky-web/_mock/README.md`.
 
 ---
 
-## Core Module
+## Core Angular Module
 
-Angular's `CoreModule` centralizes essential services for the frontend. Details are in `stocky-web/src/app/core/README.md`.
+Centralizes essential services. See `stocky-web/src/app/core/README.md` for details.
 
 ---
 
 ## Contributing
 
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
+All contributions are welcome! Please fork the repo and submit a pull request.
 
 ---
 
